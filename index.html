@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hey...</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="Jev_rangala.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Floating Blur Background -->
+    <div class="bg-blur blur1"></div>
+    <div class="bg-blur blur2"></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="glass hero-card">
+
+            <img class="hero-gif" src="images/cute.gif" alt="cute gif">
+
+            <h1 class="main-title">
+                Hey Bacha...
+            </h1>
+
+            <p class="typing-text" id="typing"></p>
+
+            <button class="start-btn" id="startBtn">
+                Click To Hear Me Out :)
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- STORY SECTION -->
+    <section class="story-section">
+
+        <div class="story-card glass" data-aos="fade-up">
+            <h2>I know I messed up.</h2>
+            <p>
+                And honestly... I’ve been feeling bad ever since ; really Baby.
+            </p>
+        </div>
+
+        <div class="story-card glass" data-aos="fade-up">
+            <h2>You matter to me the most.</h2>
+            <p>
+                I really don’t want one stupid moment to make things over between us.
+            </p>
+        </div>
+
+        <div class="story-card glass" data-aos="fade-up">
+            <h2>Our Bond means a lot more than anything.</h2>
+            <p>
+                You’re genuinely one of my favorite person to talk to. I feel safe around you Bacha
+            </p>
+        </div>
+
+    </section>
+
+    <!-- FAKE CHAT SECTION -->
+    <section class="chat-section">
+
+        <h2 class="section-title">Probably how things went 😭</h2>
+
+        <div class="chat-box glass">
+
+            <div class="msg left">
+                You alway overreact.
+            </div>
+
+            <div class="msg right">
+                You always blame me  😭
+            </div>
+
+            <div class="msg left">
+                Coz you are.
+            </div>
+
+            <div class="msg right">
+                Alright I deserve that , i will go silent and wont come back.
+            </div>
+
+            <div class="msg left">
+                WHAT ,please dont bacha.
+            </div>
+
+            <div class="msg right">
+                Nope you lost me  🥲
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FORGIVE SECTION -->
+    <section class="forgive-section">
+
+        <div class="glass forgive-card">
+
+            <img class="sorry-img" src="images/sorry.png" alt="sorry">
+
+            <h2 class="forgive-title">
+                Can we go back to normal again?
+            </h2>
+
+            <div class="btn-group">
+
+                <button class="yes-btn" id="yesBtn">
+                    Okay :)
+                </button>
+
+                <button class="no-btn" id="noBtn">
+                    Still Angry 😤
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECRET SECTION -->
+    <section class="secret-section hidden" id="secretSection">
+
+        <div class="glass secret-card">
+
+            <img class="secret-gif" src="images/love.gif" alt="love gif">
+
+            <h2>One Last Thing...</h2>
+
+            <p>
+                Thank you for being one of the best people in my life.
+                <br><br>
+                And thank you for tolerating my stupidity sometimes 😭
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FINAL SECTION -->
+    <section class="ending-section">
+
+        <div class="glass ending-card">
+
+            <h1 class="ending-text">
+                Let’s go back to annoying each other normally again :)
+            </h1>
+
+        </div>
+
+    </section>
+
+    <!-- Floating Hearts -->
+    <div class="floating-hearts">
+        <span>✨</span>
+        <span>💜</span>
+        <span>✨</span>
+        <span>⭐</span>
+        <span>✨</span>
+    </div>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true,
+        });
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
